@@ -18,7 +18,7 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     this.getVideogames();
-    this.getPlatforms();
+    // this.getPlatforms();
   }
 
   getVideogames(): void {
